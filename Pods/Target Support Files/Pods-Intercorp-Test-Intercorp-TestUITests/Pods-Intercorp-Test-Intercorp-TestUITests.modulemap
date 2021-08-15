@@ -1,0 +1,6 @@
+framework module Pods_Intercorp_Test_Intercorp_TestUITests {
+  umbrella header "Pods-Intercorp-Test-Intercorp-TestUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
