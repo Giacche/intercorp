@@ -13,26 +13,17 @@
 		2E8D795C26C9776C00BF5719 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E8D795B26C9776C00BF5719 /* Assets.xcassets */; };
 		2E8D795F26C9776C00BF5719 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E8D795D26C9776C00BF5719 /* LaunchScreen.storyboard */; };
 		2E8D796A26C9776C00BF5719 /* Intercorp_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8D796926C9776C00BF5719 /* Intercorp_TestTests.swift */; };
-		2E8D797526C9776D00BF5719 /* Intercorp_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8D797426C9776D00BF5719 /* Intercorp_TestUITests.swift */; };
 		2E8D798526C97ECD00BF5719 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E8D798426C97ECD00BF5719 /* Images.xcassets */; };
 		2E8D798726C9842300BF5719 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2E8D798626C9842300BF5719 /* GoogleService-Info.plist */; };
 		2E8D798926C9AB6600BF5719 /* UserFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8D798826C9AB6600BF5719 /* UserFormViewController.swift */; };
 		2E8D798B26C9C4D500BF5719 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8D798A26C9C4D500BF5719 /* User.swift */; };
 		2E8D798D26C9CC4F00BF5719 /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8D798C26C9CC4F00BF5719 /* SuccessViewController.swift */; };
 		79FDB9CED6444F5E414565BC /* Pods_Intercorp_TestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27DDBC96C9B4CF6A54187626 /* Pods_Intercorp_TestTests.framework */; };
-		AC7F99CF4682AB51643C270D /* Pods_Intercorp_Test_Intercorp_TestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27087083B9CDD2FADE089F25 /* Pods_Intercorp_Test_Intercorp_TestUITests.framework */; };
 		B93CD79B16F30984C22F9BE6 /* Pods_Intercorp_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E8FF44360507BD324BA618A /* Pods_Intercorp_Test.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		2E8D796626C9776C00BF5719 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2E8D794726C9776A00BF5719 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2E8D794E26C9776A00BF5719;
-			remoteInfo = "Intercorp-Test";
-		};
-		2E8D797126C9776D00BF5719 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2E8D794726C9776A00BF5719 /* Project object */;
 			proxyType = 1;
@@ -58,9 +49,6 @@
 		2E8D796526C9776C00BF5719 /* Intercorp-TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Intercorp-TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E8D796926C9776C00BF5719 /* Intercorp_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intercorp_TestTests.swift; sourceTree = "<group>"; };
 		2E8D796B26C9776D00BF5719 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2E8D797026C9776D00BF5719 /* Intercorp-TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Intercorp-TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2E8D797426C9776D00BF5719 /* Intercorp_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intercorp_TestUITests.swift; sourceTree = "<group>"; };
-		2E8D797626C9776D00BF5719 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E8D798426C97ECD00BF5719 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2E8D798626C9842300BF5719 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Intercorp-Test/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		2E8D798826C9AB6600BF5719 /* UserFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFormViewController.swift; sourceTree = "<group>"; };
@@ -88,14 +76,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2E8D796D26C9776D00BF5719 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AC7F99CF4682AB51643C270D /* Pods_Intercorp_Test_Intercorp_TestUITests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -104,7 +84,6 @@
 			children = (
 				2E8D795126C9776A00BF5719 /* Intercorp-Test */,
 				2E8D796826C9776C00BF5719 /* Intercorp-TestTests */,
-				2E8D797326C9776D00BF5719 /* Intercorp-TestUITests */,
 				2E8D795026C9776A00BF5719 /* Products */,
 				9871A906D4896C6127A79DE2 /* Pods */,
 				652A6AA164AB04271E878418 /* Frameworks */,
@@ -116,7 +95,6 @@
 			children = (
 				2E8D794F26C9776A00BF5719 /* Intercorp-Test.app */,
 				2E8D796526C9776C00BF5719 /* Intercorp-TestTests.xctest */,
-				2E8D797026C9776D00BF5719 /* Intercorp-TestUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,15 +118,6 @@
 				2E8D796B26C9776D00BF5719 /* Info.plist */,
 			);
 			path = "Intercorp-TestTests";
-			sourceTree = "<group>";
-		};
-		2E8D797326C9776D00BF5719 /* Intercorp-TestUITests */ = {
-			isa = PBXGroup;
-			children = (
-				2E8D797426C9776D00BF5719 /* Intercorp_TestUITests.swift */,
-				2E8D797626C9776D00BF5719 /* Info.plist */,
-			);
-			path = "Intercorp-TestUITests";
 			sourceTree = "<group>";
 		};
 		2E8D798F26CA076D00BF5719 /* ViewControllers */ = {
@@ -253,26 +222,6 @@
 			productReference = 2E8D796526C9776C00BF5719 /* Intercorp-TestTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		2E8D796F26C9776D00BF5719 /* Intercorp-TestUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2E8D797F26C9776D00BF5719 /* Build configuration list for PBXNativeTarget "Intercorp-TestUITests" */;
-			buildPhases = (
-				583465BF6C2FF90E70071FDC /* [CP] Check Pods Manifest.lock */,
-				2E8D796C26C9776D00BF5719 /* Sources */,
-				2E8D796D26C9776D00BF5719 /* Frameworks */,
-				2E8D796E26C9776D00BF5719 /* Resources */,
-				F92C66DD0F81E92DBB75AE08 /* [CP] Embed Pods Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2E8D797226C9776D00BF5719 /* PBXTargetDependency */,
-			);
-			name = "Intercorp-TestUITests";
-			productName = "Intercorp-TestUITests";
-			productReference = 2E8D797026C9776D00BF5719 /* Intercorp-TestUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -286,10 +235,6 @@
 						CreatedOnToolsVersion = 12.5.1;
 					};
 					2E8D796426C9776C00BF5719 = {
-						CreatedOnToolsVersion = 12.5.1;
-						TestTargetID = 2E8D794E26C9776A00BF5719;
-					};
-					2E8D796F26C9776D00BF5719 = {
 						CreatedOnToolsVersion = 12.5.1;
 						TestTargetID = 2E8D794E26C9776A00BF5719;
 					};
@@ -310,7 +255,6 @@
 			targets = (
 				2E8D794E26C9776A00BF5719 /* Intercorp-Test */,
 				2E8D796426C9776C00BF5719 /* Intercorp-TestTests */,
-				2E8D796F26C9776D00BF5719 /* Intercorp-TestUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -329,13 +273,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		2E8D796326C9776C00BF5719 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2E8D796E26C9776D00BF5719 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -389,28 +326,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		583465BF6C2FF90E70071FDC /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Intercorp-Test-Intercorp-TestUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		C2F08A3286B0A13DA874971A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -426,23 +341,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Intercorp-Test/Pods-Intercorp-Test-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F92C66DD0F81E92DBB75AE08 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Intercorp-Test-Intercorp-TestUITests/Pods-Intercorp-Test-Intercorp-TestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Intercorp-Test-Intercorp-TestUITests/Pods-Intercorp-Test-Intercorp-TestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Intercorp-Test-Intercorp-TestUITests/Pods-Intercorp-Test-Intercorp-TestUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -468,14 +366,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2E8D796C26C9776D00BF5719 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2E8D797526C9776D00BF5719 /* Intercorp_TestUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -483,11 +373,6 @@
 			isa = PBXTargetDependency;
 			target = 2E8D794E26C9776A00BF5719 /* Intercorp-Test */;
 			targetProxy = 2E8D796626C9776C00BF5719 /* PBXContainerItemProxy */;
-		};
-		2E8D797226C9776D00BF5719 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2E8D794E26C9776A00BF5719 /* Intercorp-Test */;
-			targetProxy = 2E8D797126C9776D00BF5719 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -713,48 +598,6 @@
 			};
 			name = Release;
 		};
-		2E8D798026C9776D00BF5719 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 178794BAF3B3879F84E59D1C /* Pods-Intercorp-Test-Intercorp-TestUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = R569H7A9M6;
-				INFOPLIST_FILE = "Intercorp-TestUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lucas.Intercorp-TestUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Intercorp-Test";
-			};
-			name = Debug;
-		};
-		2E8D798126C9776D00BF5719 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 06DC360A1254248F435EF3CA /* Pods-Intercorp-Test-Intercorp-TestUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = R569H7A9M6;
-				INFOPLIST_FILE = "Intercorp-TestUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lucas.Intercorp-TestUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Intercorp-Test";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -781,15 +624,6 @@
 			buildConfigurations = (
 				2E8D797D26C9776D00BF5719 /* Debug */,
 				2E8D797E26C9776D00BF5719 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2E8D797F26C9776D00BF5719 /* Build configuration list for PBXNativeTarget "Intercorp-TestUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2E8D798026C9776D00BF5719 /* Debug */,
-				2E8D798126C9776D00BF5719 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

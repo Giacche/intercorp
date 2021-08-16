@@ -19,7 +19,6 @@ class ViewController: UIViewController, LoginButtonDelegate {
         goToRegisterView()
     }
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -57,9 +56,7 @@ class ViewController: UIViewController, LoginButtonDelegate {
                return
             }
             
-            
             self.goToRegisterView()
-    
         })
         SVProgressHUD.dismiss()
     }

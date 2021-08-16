@@ -9,25 +9,30 @@ import XCTest
 @testable import Intercorp_Test
 
 class Intercorp_TestTests: XCTestCase {
+    
+    var model: User!
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    override func setUp() {
+        model = User(userFirstName: "Lucas", userLastName: "Giacche", userAge: "26", userDateBirth: "10 Octubre 1994")
     }
 
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    override func tearDown() {
+        model = nil
     }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    
+    func testUserName(){
+        XCTAssertEqual(model.userFirstName, "Lucas")
     }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    
+    func testUserLastName(){
+        XCTAssertEqual(model.userLastName, "Giacche")
     }
-
+    
+    func testUserAge(){
+        XCTAssertEqual(model.userAge, "26")
+    }
+    
+    func testUserDateBirth(){
+        XCTAssertEqual(model.userDateBirth, "10 Octubre 1994")
+    }
 }
