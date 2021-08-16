@@ -10,6 +10,7 @@ target 'Intercorp-Test' do
   pod 'Firebase/Database'
   pod 'FBSDKCoreKit'
   pod 'FBSDKLoginKit'
+  pod 'SVProgressHUD'
 
   # Pods for Intercorp-Test
 

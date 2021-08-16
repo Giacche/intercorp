@@ -3,18 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		2E8D795326C9776A00BF5719 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8D795226C9776A00BF5719 /* AppDelegate.swift */; };
-		2E8D795526C9776A00BF5719 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8D795426C9776A00BF5719 /* SceneDelegate.swift */; };
 		2E8D795726C9776A00BF5719 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8D795626C9776A00BF5719 /* ViewController.swift */; };
 		2E8D795A26C9776A00BF5719 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E8D795826C9776A00BF5719 /* Main.storyboard */; };
 		2E8D795C26C9776C00BF5719 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E8D795B26C9776C00BF5719 /* Assets.xcassets */; };
 		2E8D795F26C9776C00BF5719 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E8D795D26C9776C00BF5719 /* LaunchScreen.storyboard */; };
 		2E8D796A26C9776C00BF5719 /* Intercorp_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8D796926C9776C00BF5719 /* Intercorp_TestTests.swift */; };
 		2E8D797526C9776D00BF5719 /* Intercorp_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8D797426C9776D00BF5719 /* Intercorp_TestUITests.swift */; };
+		2E8D798526C97ECD00BF5719 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E8D798426C97ECD00BF5719 /* Images.xcassets */; };
+		2E8D798726C9842300BF5719 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2E8D798626C9842300BF5719 /* GoogleService-Info.plist */; };
+		2E8D798926C9AB6600BF5719 /* UserFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8D798826C9AB6600BF5719 /* UserFormViewController.swift */; };
+		2E8D798B26C9C4D500BF5719 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8D798A26C9C4D500BF5719 /* User.swift */; };
+		2E8D798D26C9CC4F00BF5719 /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8D798C26C9CC4F00BF5719 /* SuccessViewController.swift */; };
 		79FDB9CED6444F5E414565BC /* Pods_Intercorp_TestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27DDBC96C9B4CF6A54187626 /* Pods_Intercorp_TestTests.framework */; };
 		AC7F99CF4682AB51643C270D /* Pods_Intercorp_Test_Intercorp_TestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27087083B9CDD2FADE089F25 /* Pods_Intercorp_Test_Intercorp_TestUITests.framework */; };
 		B93CD79B16F30984C22F9BE6 /* Pods_Intercorp_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E8FF44360507BD324BA618A /* Pods_Intercorp_Test.framework */; };
@@ -46,7 +50,6 @@
 		27DDBC96C9B4CF6A54187626 /* Pods_Intercorp_TestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Intercorp_TestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E8D794F26C9776A00BF5719 /* Intercorp-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Intercorp-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E8D795226C9776A00BF5719 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2E8D795426C9776A00BF5719 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2E8D795626C9776A00BF5719 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2E8D795926C9776A00BF5719 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2E8D795B26C9776C00BF5719 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -58,6 +61,11 @@
 		2E8D797026C9776D00BF5719 /* Intercorp-TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Intercorp-TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E8D797426C9776D00BF5719 /* Intercorp_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intercorp_TestUITests.swift; sourceTree = "<group>"; };
 		2E8D797626C9776D00BF5719 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E8D798426C97ECD00BF5719 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2E8D798626C9842300BF5719 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		2E8D798826C9AB6600BF5719 /* UserFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFormViewController.swift; sourceTree = "<group>"; };
+		2E8D798A26C9C4D500BF5719 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		2E8D798C26C9CC4F00BF5719 /* SuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessViewController.swift; sourceTree = "<group>"; };
 		3036A5989A9CD375D3A1EE7C /* Pods-Intercorp-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Intercorp-Test.release.xcconfig"; path = "Target Support Files/Pods-Intercorp-Test/Pods-Intercorp-Test.release.xcconfig"; sourceTree = "<group>"; };
 		A3EB0ACB2A95B3177BAF7E18 /* Pods-Intercorp-Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Intercorp-Test.debug.xcconfig"; path = "Target Support Files/Pods-Intercorp-Test/Pods-Intercorp-Test.debug.xcconfig"; sourceTree = "<group>"; };
 		D652AF8354E5963831ED2E1D /* Pods-Intercorp-TestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Intercorp-TestTests.debug.xcconfig"; path = "Target Support Files/Pods-Intercorp-TestTests/Pods-Intercorp-TestTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -117,12 +125,16 @@
 			isa = PBXGroup;
 			children = (
 				2E8D795226C9776A00BF5719 /* AppDelegate.swift */,
-				2E8D795426C9776A00BF5719 /* SceneDelegate.swift */,
 				2E8D795626C9776A00BF5719 /* ViewController.swift */,
 				2E8D795826C9776A00BF5719 /* Main.storyboard */,
 				2E8D795B26C9776C00BF5719 /* Assets.xcassets */,
 				2E8D795D26C9776C00BF5719 /* LaunchScreen.storyboard */,
 				2E8D796026C9776C00BF5719 /* Info.plist */,
+				2E8D798426C97ECD00BF5719 /* Images.xcassets */,
+				2E8D798626C9842300BF5719 /* GoogleService-Info.plist */,
+				2E8D798826C9AB6600BF5719 /* UserFormViewController.swift */,
+				2E8D798A26C9C4D500BF5719 /* User.swift */,
+				2E8D798C26C9CC4F00BF5719 /* SuccessViewController.swift */,
 			);
 			path = "Intercorp-Test";
 			sourceTree = "<group>";
@@ -165,7 +177,6 @@
 				D652AF8354E5963831ED2E1D /* Pods-Intercorp-TestTests.debug.xcconfig */,
 				05E9DAFCA2614F24D98F18C8 /* Pods-Intercorp-TestTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -278,6 +289,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E8D795F26C9776C00BF5719 /* LaunchScreen.storyboard in Resources */,
+				2E8D798526C97ECD00BF5719 /* Images.xcassets in Resources */,
+				2E8D798726C9842300BF5719 /* GoogleService-Info.plist in Resources */,
 				2E8D795C26C9776C00BF5719 /* Assets.xcassets in Resources */,
 				2E8D795A26C9776A00BF5719 /* Main.storyboard in Resources */,
 			);
@@ -407,9 +420,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E8D798B26C9C4D500BF5719 /* User.swift in Sources */,
 				2E8D795726C9776A00BF5719 /* ViewController.swift in Sources */,
 				2E8D795326C9776A00BF5719 /* AppDelegate.swift in Sources */,
-				2E8D795526C9776A00BF5719 /* SceneDelegate.swift in Sources */,
+				2E8D798D26C9CC4F00BF5719 /* SuccessViewController.swift in Sources */,
+				2E8D798926C9AB6600BF5719 /* UserFormViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
