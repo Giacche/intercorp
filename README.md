@@ -19,23 +19,21 @@ _Desafío a resolver de Aplicativo Mobile iOS_
 • Código subido en GITHUB
 ```
 
-## Construido con 🛠️
-
-* XCode
-* Swift 4
-* Firebase
-
-
-## Autores ✒️
-
-* **Lucas N. Giacche**
-
 ## Views
 ![Screen Shot 2021-08-15 at 23 38 28](https://user-images.githubusercontent.com/19290184/129506604-61684369-1eb4-41f0-93f7-e8080929fe27.png)
 
 ## Database Model
 <img width="939" alt="Screen Shot 2021-08-15 at 23 35 42" src="https://user-images.githubusercontent.com/19290184/129506609-019b6db8-6800-4d4d-acc5-c99463c195b4.png">
 
+## Construido con 🛠️
+
+* XCode
+* Swift 4
+* Firebase
+
+## Developer ✒️
+
+* **Lucas N. Giacche**
 
 
 
