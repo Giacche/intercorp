@@ -44,7 +44,7 @@ class ViewController: UIViewController, LoginButtonDelegate {
             return;
         }
             
-        let credential = FacebookAuthProvider.credential(withAccessToken: AccessToken.current!.tokenString)
+        let credential = FacebookAuthProvider.credential(withAccessToken: AccessToken.current?.tokenString ?? "")
         Auth.auth().signIn(with: credential, completion: { (user, error) in
                 
             if let error = error {
@@ -57,11 +57,11 @@ class ViewController: UIViewController, LoginButtonDelegate {
                return
             }
             
-            SVProgressHUD.dismiss()
+            
             self.goToRegisterView()
     
         })
-        
+        SVProgressHUD.dismiss()
     }
         
     func loginButtonDidLogOut(_ loginButton: FBLoginButton) {
